@@ -1,0 +1,21 @@
+//----------------------
+// PATRON DE COLORES
+//----------------------
+
+$texto:red;
+$principal: blue;
+$secundario:orange; 
+
+// Estilos del diseño
+html{
+	font-size:13px;
+}
+.card:hover{
+	box-shadow: 0 0 10px #dadadafa;
+}
+
+@media(min-width: 768px){
+	html{
+		font-size: 16px;
+	}
+}
